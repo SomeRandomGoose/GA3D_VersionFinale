@@ -21,8 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material 2
-  m_Shader: {fileID: -6465566751694194690, guid: ea258b5b83f45704d9a07d7067bebc6b,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: ea258b5b83f45704d9a07d7067bebc6b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -96,6 +95,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - BurnWidth: 0.02
+    - DT: 0
+    - NoiseScale: 40
     - Vector1_1D9A2AE: 0.1
     - Vector1_EFE64959: 50
     - Vector1_FEFF47F1: 0
@@ -127,9 +129,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - BurnColor: {r: 15.999998, g: 2.17679, b: 0, a: 0}
     - Color_6DF76E71: {r: 7.1042247, g: 0, b: 15.999998, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.94509804, g: 0.6156863, b: 0.6156863, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SofaColor: {r: 0.945098, g: 0.6156863, b: 0.6156863, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

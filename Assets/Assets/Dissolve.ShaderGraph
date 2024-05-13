@@ -369,7 +369,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "09d460610e66268899cfae3be2357279",
     "m_Id": 0,
-    "m_DisplayName": "Noise Scale",
+    "m_DisplayName": "NoiseScale",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -617,10 +617,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -852.800048828125,
-            "y": 96.0,
-            "width": 119.20001220703125,
-            "height": 33.600006103515628
+            "x": -822.3999633789063,
+            "y": 9.599982261657715,
+            "width": 118.39996337890625,
+            "height": 33.599998474121097
         }
     },
     "m_Slots": [
@@ -708,7 +708,7 @@
     "m_DefaultRefNameVersion": 1,
     "m_RefNameGeneratedByDisplayName": "SofaColor",
     "m_DefaultReferenceName": "_SofaColor",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_Color",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -893,11 +893,11 @@
     "m_Guid": {
         "m_GuidSerialized": "121a92b4-066d-4a25-bf45-661344683263"
     },
-    "m_Name": "Noise Scale",
+    "m_Name": "NoiseScale",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_EFE64959",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "NoiseScale",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -1056,7 +1056,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "70bf2737a388498b8bad6b9547b4e303",
     "m_Id": 0,
-    "m_DisplayName": "Edge Width",
+    "m_DisplayName": "BurnWidth",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1230,11 +1230,11 @@
     "m_Guid": {
         "m_GuidSerialized": "8dc9d3f2-2d7e-4643-8feb-909c3670bbd7"
     },
-    "m_Name": "Dissolve",
+    "m_Name": "DissolveTime",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_FEFF47F1",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "DT",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -1266,17 +1266,17 @@
 }
 
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "9008a64e71eb578b8cfd69843de52bbd",
     "m_Guid": {
         "m_GuidSerialized": "be8ccb72-3c32-469b-9b20-001e90dcfd20"
     },
-    "m_Name": "Edge Color",
+    "m_Name": "BurnColor",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_6DF76E71",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "BurnColor",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -1343,10 +1343,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -660.7999877929688,
-            "y": -167.20001220703126,
+            "x": -733.5999145507813,
+            "y": -215.99993896484376,
             "width": 125.5999755859375,
-            "height": 117.59999084472656
+            "height": 117.5999984741211
         }
     },
     "m_Slots": [
@@ -1380,13 +1380,13 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "9008a64e71eb578b8cfd69843de52bbd"
+            "m_Id": "5bb8271dcda6b085b6b35f64ec5d7622"
         },
         {
             "m_Id": "f34f1be25d84328fa7b94f4190758467"
         },
         {
-            "m_Id": "5bb8271dcda6b085b6b35f64ec5d7622"
+            "m_Id": "9008a64e71eb578b8cfd69843de52bbd"
         },
         {
             "m_Id": "89c966845095ad80a87c17b1f7fe9373"
@@ -1617,7 +1617,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "af82c800e2527d8fabed68657b6135f2",
     "m_Id": 0,
-    "m_DisplayName": "Edge Color",
+    "m_DisplayName": "BurnColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1842,10 +1842,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -535.2000122070313,
-            "y": -275.2000427246094,
-            "width": 208.0,
-            "height": 301.5999755859375
+            "x": -578.39990234375,
+            "y": -317.5999755859375,
+            "width": 207.99993896484376,
+            "height": 301.6000061035156
         }
     },
     "m_Slots": [
@@ -1873,7 +1873,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "e4e897fc291ab7859e8e5dec93a1cb2e",
     "m_Id": 0,
-    "m_DisplayName": "Dissolve",
+    "m_DisplayName": "DissolveTime",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1964,11 +1964,11 @@
     "m_Guid": {
         "m_GuidSerialized": "3ecaa6b4-61f4-46b1-9d63-cce980ac2fd8"
     },
-    "m_Name": "Edge Width",
+    "m_Name": "BurnWidth",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_1D9A2AE",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "BurnWidth",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
