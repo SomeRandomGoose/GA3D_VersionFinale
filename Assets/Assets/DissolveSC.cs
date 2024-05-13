@@ -21,10 +21,16 @@ public class DissolveSC : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hitInfo))
             {
+
                 if (hitInfo.collider.gameObject == this.gameObject)
                 {
                     if (!can_dissolve)
+                    {
+                        initDiss = 0;
+                        GetComponent<MeshRenderer>().material.SetFloat("DT", 0);
                         gameObject.GetComponent<AudioSource>().Play();
+                    }
+                        
 
                     can_dissolve = true;
              
@@ -51,8 +57,6 @@ public class DissolveSC : MonoBehaviour
             if(initDiss > 1)
             {
                 //gameObject.GetComponent<AudioSource>().Stop();
-                initDiss = 0;
-                GetComponent<MeshRenderer>().material.SetFloat("DT", 0);
                 can_dissolve = false;
             }
         }
